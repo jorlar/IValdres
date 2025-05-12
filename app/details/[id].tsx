@@ -7,7 +7,7 @@ import { activityService, eventService, hotelService, restaurantService, shopSer
 import { ListingItem } from '@/types';
 import { Ionicons } from '@expo/vector-icons';
 import { useLocalSearchParams, useRouter } from 'expo-router';
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Image, Linking, Platform, Pressable, ScrollView, StatusBar, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
@@ -101,10 +101,11 @@ export default function DetailScreen() {
       );
     }
     if ('cuisine' in item) {
+      const cuisines = Array.isArray(item.cuisine) ? item.cuisine : [item.cuisine];
       return (
         <View style={styles.section}>
           <ThemedText style={styles.sectionTitle}>{t('restaurant.cuisine')}</ThemedText>
-          {item.cuisine.map((type, index) => (
+          {cuisines.map((type, index) => (
             <View key={index} style={styles.infoRow}>
               <Ionicons name="restaurant" size={24} color={colors.text} />
               <ThemedText style={styles.infoText}>{t(`restaurant.cuisine.${type.toLowerCase()}`)}</ThemedText>
