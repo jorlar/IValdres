@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		5E9894FEB625EA69DDAA8112 /* libPods-IValdres.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E309941465609901615D7A /* libPods-IValdres.a */; };
 		6B19FF5988CDA809647CE58C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7237DF6C3BE0984FBA5A0553 /* PrivacyInfo.xcprivacy */; };
+		72BEBC51E7B3374CBBF61470 /* libPods-IValdres.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A50DD849636D5969A6A5676 /* libPods-IValdres.a */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
 		D21959ABB12AAAEA032DFB65 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC5C384A21D57AAEA3723AF /* ExpoModulesProvider.swift */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
@@ -20,12 +20,12 @@
 		13B07F961A680F5B00A75B9A /* IValdres.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IValdres.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = IValdres/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = IValdres/Info.plist; sourceTree = "<group>"; };
-		3F7BA0C27ADDE66B88A92E93 /* Pods-IValdres.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IValdres.release.xcconfig"; path = "Target Support Files/Pods-IValdres/Pods-IValdres.release.xcconfig"; sourceTree = "<group>"; };
-		45E309941465609901615D7A /* libPods-IValdres.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IValdres.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A50DD849636D5969A6A5676 /* libPods-IValdres.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IValdres.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5317FA091FDCEF9CF6FBAA6E /* Pods-IValdres.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IValdres.release.xcconfig"; path = "Target Support Files/Pods-IValdres/Pods-IValdres.release.xcconfig"; sourceTree = "<group>"; };
 		7237DF6C3BE0984FBA5A0553 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = IValdres/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		A55739A838AFD7A1B26C14ED /* Pods-IValdres.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IValdres.debug.xcconfig"; path = "Target Support Files/Pods-IValdres/Pods-IValdres.debug.xcconfig"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = IValdres/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		C859B3104A50F43ED48909A4 /* Pods-IValdres.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IValdres.debug.xcconfig"; path = "Target Support Files/Pods-IValdres/Pods-IValdres.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = IValdres/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* IValdres-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "IValdres-Bridging-Header.h"; path = "IValdres/IValdres-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E9894FEB625EA69DDAA8112 /* libPods-IValdres.a in Frameworks */,
+				72BEBC51E7B3374CBBF61470 /* libPods-IValdres.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				45E309941465609901615D7A /* libPods-IValdres.a */,
+				1A50DD849636D5969A6A5676 /* libPods-IValdres.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -78,8 +78,8 @@
 		7665FAB675BA8679F241DC35 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C859B3104A50F43ED48909A4 /* Pods-IValdres.debug.xcconfig */,
-				3F7BA0C27ADDE66B88A92E93 /* Pods-IValdres.release.xcconfig */,
+				A55739A838AFD7A1B26C14ED /* Pods-IValdres.debug.xcconfig */,
+				5317FA091FDCEF9CF6FBAA6E /* Pods-IValdres.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -138,14 +138,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "IValdres" */;
 			buildPhases = (
-				AAB9CEA5B841B7198FFF92B9 /* [CP] Check Pods Manifest.lock */,
+				AF88EDDBAF858DCA4085D1F1 /* [CP] Check Pods Manifest.lock */,
 				E199BCE0A3D999BA27E8A1F8 /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				2DD4CD77CD0167C397F03AA8 /* [CP] Embed Pods Frameworks */,
-				ACD0714002304CEFEB8436FF /* [CP] Copy Pods Resources */,
+				1D44AC4FAC1CE5DAE6D8B5A9 /* [CP] Embed Pods Frameworks */,
+				D697F15042025F8742C2FC59 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,7 +218,7 @@
 			shellPath = /bin/sh;
 			shellScript = "if [[ -f \"$PODS_ROOT/../.xcode.env\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env\"\nfi\nif [[ -f \"$PODS_ROOT/../.xcode.env.local\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.local\"\nfi\n\n# The project root by default is one level up from the ios directory\nexport PROJECT_ROOT=\"$PROJECT_DIR\"/..\n\nif [[ \"$CONFIGURATION\" = *Debug* ]]; then\n  export SKIP_BUNDLING=1\nfi\nif [[ -z \"$ENTRY_FILE\" ]]; then\n  # Set the entry JS file using the bundler's entry resolution.\n  export ENTRY_FILE=\"$(\"$NODE_BINARY\" -e \"require('expo/scripts/resolveAppEntry')\" \"$PROJECT_ROOT\" ios absolute | tail -n 1)\"\nfi\n\nif [[ -z \"$CLI_PATH\" ]]; then\n  # Use Expo CLI\n  export CLI_PATH=\"$(\"$NODE_BINARY\" --print \"require.resolve('@expo/cli', { paths: [require.resolve('expo/package.json')] })\")\"\nfi\nif [[ -z \"$BUNDLE_COMMAND\" ]]; then\n  # Default Expo CLI command for bundling\n  export BUNDLE_COMMAND=\"export:embed\"\nfi\n\n# Source .xcode.env.updates if it exists to allow\n# SKIP_BUNDLING to be unset if needed\nif [[ -f \"$PODS_ROOT/../.xcode.env.updates\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.updates\"\nfi\n# Source local changes to allow overrides\n# if needed\nif [[ -f \"$PODS_ROOT/../.xcode.env.local\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.local\"\nfi\n\n`\"$NODE_BINARY\" --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/react-native-xcode.sh'\"`\n\n";
 		};
-		2DD4CD77CD0167C397F03AA8 /* [CP] Embed Pods Frameworks */ = {
+		1D44AC4FAC1CE5DAE6D8B5A9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -236,7 +236,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IValdres/Pods-IValdres-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AAB9CEA5B841B7198FFF92B9 /* [CP] Check Pods Manifest.lock */ = {
+		AF88EDDBAF858DCA4085D1F1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,7 +258,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ACD0714002304CEFEB8436FF /* [CP] Copy Pods Resources */ = {
+		D697F15042025F8742C2FC59 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -332,7 +332,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C859B3104A50F43ED48909A4 /* Pods-IValdres.debug.xcconfig */;
+			baseConfigurationReference = A55739A838AFD7A1B26C14ED /* Pods-IValdres.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -340,6 +340,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5CHP6C7937;
 				ENABLE_BITCODE = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
@@ -371,13 +372,14 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F7BA0C27ADDE66B88A92E93 /* Pods-IValdres.release.xcconfig */;
+			baseConfigurationReference = 5317FA091FDCEF9CF6FBAA6E /* Pods-IValdres.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = IValdres/IValdres.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5CHP6C7937;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = IValdres/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Valdres Appen";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
